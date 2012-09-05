@@ -1,0 +1,206 @@
+html, body { 
+	background: url('../img/green8.jpg') no-repeat fixed center top black; 
+	color: white;
+    font-family: "Century Gothic",Arial,Helvetica,FreeSans,sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+h1 {
+    color: white;
+    display: inline-block;
+    font-family: 'Fontdiner Swanky', "Lucida Grande",Tahoma,"Trebuchet MS",Helvetica,sans-serif;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 0.8;
+    margin: 11px 0 11px;
+    padding-left: 18px;
+}
+h1 a, h1 a:visited {
+    -moz-transition: all 0.5s ease 0s;
+    color: appworkspace;
+    text-decoration: none;
+}
+h1 a:hover, h1 a:focus {
+    outline: medium none;
+    text-decoration: none;
+}
+h1 span {
+    color: black;
+    display: block;
+    font-size: 30px;
+    font-weight: normal;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+h2 {
+	/* color: rgba(255, 255, 255, 0.5); */
+    font-family: 'Oregano', Megalopolis,Georgia,serif;
+    font-size: 30px;
+    margin: 10px 50px;
+    padding-top: 20px;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+}
+.blue {
+    color: #00CCFF !important;
+}
+.blue:hover a.footer-link, .blue:hover span.subtitle {
+    color: #00CCFF !important;
+}
+.red {
+    color: #ff250f !important;
+}
+.red:hover a.footer-link, .red:hover span.subtitle {
+    color: #ff250f;
+}
+.gold:hover a.footer-link, .gold:hover span.subtitle {
+    color: gold !important;
+}
+.orange {
+    color: #FF9900 !important;
+}
+.orange:hover a.footer-link, .orange:hover span.subtitle {
+    color: #FF9900;
+}
+.green {
+    color: #00FF00 !important;
+}
+.green:hover a.footer-link, .green:hover span.subtitle {
+    color: #00FF00;
+}
+.r {
+	float: right;
+}
+.l {
+	float: left;
+}
+.hr {
+	background: url("../img/hr.png") no-repeat scroll 0 bottom transparent;
+	width: 541px;
+	height: 2px;
+	margin: auto;
+	padding-top: 20px;
+	clear: both;
+} 
+
+/*********************************/
+/***     Header        **********/
+/*******************************/
+
+#header {
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    height: 90px;
+    width: 100%;
+    color: white;
+}
+#header #headerContent {
+    height: 100%;
+    margin: 0 auto;
+    width: 950px;
+    margin-top: 15px;
+}
+#header #headerContent #logo {
+    width: 291px;
+    float: left;
+}
+#header #headerContent .menu_top {
+    float: left;
+    height: 41px;
+    width: 579px;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+#header #headerContent .menu_top .element {
+    float: left;
+    margin-right: 35px;
+    text-align: center;
+    
+    /*
+-moz-transition: background 0.8s ease-out 0s;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+    border-radius: 6px 6px 0 0;
+    text-shadow: 1px 1px 0 #000000;
+*/
+}
+/*
+#header #headerContent .menu_top .element:hover {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+}
+*/
+.menu_top .element .title {
+    color: white;
+    display: block;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu_top .element .subtitle {
+    color: #A1A1A1;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 10px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+/*********************************/
+/***     Body         ***********/
+/*******************************/
+
+
+.conteneur {
+    /* background: url("../img/bg-contenu.png") repeat-y scroll center top transparent; */
+    background-color: rgba(1, 1, 1, .8);
+    margin: 20px auto;
+    width: 1020px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+.cube {
+    width: 800px;
+    margin: 0 auto auto;
+    padding: 20px;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    line-height: 21px;
+    text-align: left;
+}
+.InCube {
+    font-size: 16px;
+    width: 370px;
+}
+
+/*********************************/
+/***     Footer       ***********/
+/*******************************/
+
+#copyright {
+    color: grey;
+    /* background-color: rgba(0, 0, 0, 0.35); */
+    font-size: smaller;
+    text-align: center;
+    margin: O 5px auto;
+    padding-top: 10px;
+}
+
+#copyright .menu_top {
+    height: 20px;
+    width: 414px;
+    margin: auto;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+#copyright .menu_top .element {
+    margin: 0 20px;
+    text-align: center;
+    float: left;
+}
+#copyright #link-footer {
+	color: white;
+}
